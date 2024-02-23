@@ -1,0 +1,48 @@
+@media (min-width: 992px) {
+    .app-header {
+      padding-inline-end: 10px;
+      padding-inline-start: 10px;
+      z-index: 9 !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .app-content {
+      margin-inline-start: 50px;
+      margin-inline-end: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+  .header-brand-img {
+    margin-inline-start: 1.5rem;
+   
+  }
+}
+
+#profile-user{
+  position: absolute ;
+  inset: 0px 0px auto auto !important;
+  margin: 0px !important;
+  transform: translate(0px, 60px) !important;
+  
+}
+
+#profile-search{
+  position: absolute !important;
+  inset: 0px 0px auto auto !important;
+  margin: 0px !important;
+}
+
+.dropdown-menu.header-search::before {
+  content: "";
+  width: 0px !important;
+  height: 0px !important;
+  background: #fff;
+  position: absolute;
+  inset-block-start: -7px;
+  inset-inline-start: 28px;
+  transform: rotate(45deg);
+  border-block-start: 1px solid #e9edf4;
+  border-inline-start: 1px solid #e9edf4;
+}
